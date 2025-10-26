@@ -1157,11 +1157,12 @@ wheels = [
 [[package]]
 name = "pyobsidianrpg"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "jupyter" },
     { name = "pandas" },
     { name = "pandoc" },
+    { name = "pyyaml" },
 ]
 
 [package.metadata]
@@ -1169,6 +1170,7 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pandoc", specifier = ">=2.4" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
 ]
 
 [[package]]
